@@ -10,7 +10,7 @@ def main():
     today = datetime.date.today() - datetime.timedelta(13)
 
     # parse command line arguments
-    if len(sys.argv) > 2:
+    if len(sys.argv) > 3:
         util.usage()
     for i in sys.argv[1:]:
         if i == '-d':
