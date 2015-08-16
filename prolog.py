@@ -29,3 +29,7 @@ class Prolog(object):
         for i in lines:
             text = text + i
         return text
+
+    # used to set window title for gui
+    def title(self):
+        return str(self.today.month) + '/' + str(self.today.day)
